@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+/*i literally got this color from cubus.no dont sue me*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Helvetica, "sans-serif";
+}
+
+p, b, a, input, button {
+  font-size: 16px;
+  color: #414141;
+}
+
+[class^=col] {
+  display: inline-block;
+  padding: 5px;
+}
+
+.col-2 {
+  width: 16.66666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333333%;
+}
+
+.col-10 {
+  width: 83.33333333%;
+}
+
+.body__wrap {
+  width: 1300px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.header {
+  padding: 10px 0px;
+}
+.header__logo {
+  width: 143px;
+}
+.header__inline__elements {
+  float: right;
+  clear: right;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 35px;
+}
+.header__inline__elements li {
+  margin: 0px 5px;
+}
+.header__inline__elements * {
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.header a {
+  text-decoration: none;
+  color: #414141;
+}
+.header a:hover {
+  text-decoration: underline;
+}
+
+.search__bar {
+  padding: 10px;
+  color: #999;
+  border: none;
+  outline: none;
+  background: #f1f2f3;
+}
+.search__bar:focus {
+  color: #414141;
+}
+.search__button {
+  padding: 10px;
+  background: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.cart {
+  padding: 5px;
+}
+.cart__logo {
+  width: 30px;
+}
+
+.menu {
+  border-top: 1px solid #f1f2f3;
+  border-bottom: 1px solid #f1f2f3;
+}
+.menu__item {
+  display: inline-block;
+  padding: 8px 8px;
+  color: #414141;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 2px solid white;
+  transition: border 0.1s linear;
+}
+.menu__item:hover {
+  border-bottom: 1px solid black;
+}
+.menu__item:hover ~ .menu__hover {
+  display: block;
+}
+
+.menu__hover {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background: white;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+.menu__hover__list {
+  list-style: none;
+}
+.menu__hover__list li {
+  padding: 5px 0px;
+}
+.menu__hover__list li a {
+  text-decoration: none;
+}
+.menu__hover__list li a:hover {
+  text-decoration: underline;
+}
+.menu__hover:hover {
+  display: block;
+}
+
+.cta {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  background: #f1f2f3;
+  text-align: center;
+}
+.cta p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.hotspot {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.hotspot img {
+  width: 100%;
+  vertical-align: top;
+}
+.hotspot__info {
+  text-align: center;
+  vertical-align: top;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  background: #eee;
+  font-weight: 400;
+}
+
+.recommendations h2 {
+  font-size: 28px;
+}
+.recommendations__product {
+  display: inline-block;
+  vertical-align: top;
+}
+.recommendations__product img {
+  width: 100%;
+}
+.recommendations__product p, .recommendations__product b {
+  font-size: 14px;
+}
+.recommendations__product--newprice {
+  color: #e680a9;
+  font-weight: 600;
+}
+
+.footer {
+  border-top: 1px solid #f1f2f3;
+  border-bottom: 1px solid #f1f2f3;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+.footer h2 {
+  font-size: 22px;
+}
+.footer__list {
+  vertical-align: top;
+}
+.footer__list ul {
+  list-style-type: none;
+}
+.footer__list li {
+  margin: 5px 0px;
+}
+.footer__list img {
+  width: 28px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.footer__list a {
+  text-decoration: none;
+  vertical-align: middle;
+}
+.footer__list a:hover {
+  text-decoration: underline;
+}
+
+.sikrebetalinger {
+  margin: 0 auto;
+  display: block;
+  padding: 10px 0px 10px 20px;
+}
+.sikrebetalinger img {
+  display: inline-block;
+  height: 40px;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */
